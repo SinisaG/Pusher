@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Push notification demo with Firebase</title>
+    <link rel="manifest" href="/firebase/manifest.json" />
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+    <!-- Add additional services that you want to use -->
+    <!--     <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-auth.js"></script> -->
+    <!--     <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script> -->
+    <!--     <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-firestore.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-messaging.js"></script>
+    <!--     <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-functions.js"></script> -->
+    <script>
+        // Initialize Firebase
+        const config = {
+            apiKey: "AIzaSyCRr6_wEC6hwHQbJR4hNL9q5_kCIj9Van4",
+            authDomain: "pusher-d5d26.firebaseapp.com",
+            projectId: "pusher-d5d26",
+            messagingSenderId: "646617146268"
+        };
+        firebase.initializeApp(config);
+        // ETC. There is to much stuff we have to write and handle,
+        // the swiss army knife, we do not need 
+    </script>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Web Push
+            </h1>
+            <p class="subtitle">
+                Demo integration of Firebase push.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
