@@ -1,1 +1,1 @@
-<?php header( 'Location: /one-signal.html' ) ;  ?>
+<?php header( 'Location: /batch.html' ) ;  ?>
